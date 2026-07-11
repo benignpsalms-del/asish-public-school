@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>ASISH PUBLIC SCHOOL | ICSE Curriculum</title>
+  <meta name="description" content="Asish Public School, G. Udayagiri, Kandhamal, Odisha, ICSE school established in 1993." />
+  <meta name="keywords" content="Asish Public School, G. Udayagiri, Kandhamal, Odisha, ICSE CURRICULUM, established 1993" />
+  <meta name="theme-color" content="#174b35" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; font-src 'self'; media-src 'self'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests; block-all-mixed-content" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta property="og:title" content="ASISH PUBLIC SCHOOL | ICSE CURRICULUM" />
+  <meta property="og:description" content="Asish Public School, G. Udayagiri, Kandhamal, Odisha, ICSE School established in 1993." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="images/image_5.png" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --ink: #17201b;
+      --muted: #5e6a63;
+      --green: #174b35;
+      --green-soft: #fad55c;
+      --gold: #b98029;
+      --cream: #f7f4ec;
+      --paper: #ffffff;
+      --line: #ded8ca;
+      --shadow: 0 18px 55px rgba(23, 75, 53, 0.13);
+      --radius: 8px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      * {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--cream);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 2px;
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .header-inner {
+      min-height: 94px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 92px;
+      height: 92px;
+      flex: 0 0 auto;
+      display: block;
+      object-fit: contain;
+      padding: 4px;
+      background: #fff;
+      border: 3px solid var(--green);
+      border-radius: 50%;
+      box-shadow: 0 6px 18px rgba(23, 32, 27, 0.22);
+      transform: translateY(-2px);
+    }
+
+    .brand-name {
+      display: block;
+      color: var(--green);
+      font-size: clamp(1.6rem, 3vw, 2.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-subtitle {
+      display: block;
+      margin-top: 6px;
+      color: var(--gold);
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      padding: 10px 14px;
+      color: var(--muted);
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav a:hover,
+    .nav a:focus-visible {
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .hero {
+      min-height: calc(100vh - 78px);
+      display: grid;
+      align-items: center;
+      padding: 70px 0;
+      background:
+        linear-gradient(120deg, rgba(23, 75, 53, 0.98), rgba(23, 75, 53, 0.82)),
+        radial-gradient(circle at 82% 18%, rgba(248, 213, 141, 0.22), transparent 26%),
+        linear-gradient(135deg, rgba(255,255,255,0.10) 0 1px, transparent 1px 22px);
+      color: #fff;
+    }
+
+    .hero-content {
+      max-width: 820px;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding: 9px 13px;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 999px;
+      color: #f8d58d;
+      font-size: 0.92rem;
+      font-weight: 800;
+    }
+
+    .hero h1 {
+      max-width: 900px;
+      font-size: clamp(2.6rem, 8vw, 6.6rem);
+      line-height: 0.95;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      word-break: break-word;
+    }
+
+    .hero p {
+      max-width: 690px;
+      margin-top: 28px;
+      font-size: clamp(1.05rem, 2.1vw, 1.35rem);
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: 800;
+      transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+    }
+
+    .button-primary {
+      background: #fff;
+      color: var(--green);
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      color: #fff;
+    }
+
+    .section {
+      padding: 86px 0;
+    }
+
+    .section-header {
+      max-width: 760px;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    h2 {
+      margin-top: 8px;
+      color: var(--green);
+      font-size: clamp(1.8rem, 4vw, 3.25rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+      gap: 32px;
+      align-items: stretch;
+    }
+
+    .about-copy,
+    .info-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .about-copy {
+      padding: clamp(20px, 4vw, 40px);
+    }
+
+    .about-copy p + p {
+      margin-top: 18px;
+    }
+
+    .gallery {
+      background: var(--cream);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-card {
+      padding: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 220px;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .info-card {
+      padding: 28px;
+    }
+
+    .stat {
+      padding: 20px;
+      background: var(--green-soft);
+      border-radius: var(--radius);
+      border: 1px solid rgba(23, 75, 53, 0.16);
+    }
+
+    .stat-number {
+      display: block;
+      color: var(--green);
+      font-size: 2.6rem;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .stat-label {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .detail-list {
+      margin-top: 24px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .detail-list li {
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .detail-list strong {
+      display: block;
+      color: var(--green);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .contact {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .contact h2,
+    .contact .eyebrow {
+      color: #fff;
+    }
+
+    .contact .eyebrow {
+      color: #f8d58d;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .contact-card {
+      min-height: 180px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: var(--radius);
+    }
+
+    .contact-card h3 {
+      margin-bottom: 12px;
+      color: #f8d58d;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .contact-card p,
+    .contact-card a {
+      font-size: 1.18rem;
+      color: rgba(255, 255, 255, 0.92);
+      font-weight: 700;
+      word-break: break-word;
+    }
+
+    .contact-card a:hover,
+    .contact-card a:focus-visible {
+      text-decoration: underline;
+    }
+
+    .site-footer {
+      padding: 26px 0;
+      background: #102f22;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 0.92rem;
+    }
+
+    .back-to-top {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: 50%;
+      background: var(--gold);
+      color: #fff;
+      font-size: 1.2rem;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+      cursor: pointer;
+    }
+
+    .back-to-top.is-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    /* Tablet */
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 760px) {
+      .container {
+        width: min(100% - 28px, 1120px);
+      }
+
+      .header-inner {
+        min-height: auto;
+        padding: 16px 0;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .brand-mark {
+        width: 74px;
+        height: 74px;
+        transform: translateY(-2px);
+      }
+
+      .brand-name {
+        font-size: 1.25rem;
+      }
+
+      .nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+        border-top: 1px solid var(--line);
+        padding-top: 10px;
+      }
+
+      .nav a {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 64px 0;
+      }
+
+      .hero h1 {
+        font-size: clamp(2.3rem, 13vw, 4rem);
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .section {
+        padding: 56px 0;
+      }
+
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    /* Small phones */
+    @media (max-width: 380px) {
+      .brand-mark {
+        width: 60px;
+        height: 60px;
+      }
+
+      .brand-name {
+        font-size: 1.05rem;
+      }
+
+      .brand-subtitle {
+        font-size: 0.7rem;
+      }
+
+      .hero h1 {
+        font-size: clamp(2rem, 12vw, 3rem);
+      }
+
+      .stat-number {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="ASISH Public School home">
+        <img class="brand-mark" src="images/html.png" alt="ASISH Public School logo" width="92" height="92" loading="eager">
+        <span>
+          <span class="brand-name">ASISH PUBLIC SCHOOL</span>
+          <span class="brand-subtitle">TO SERVE WITH LOVE</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-kicker">ICSE SCHOOL &bull; Estd. 1993</div>
+        <h1>ASISH PUBLIC SCHOOL</h1>
+        <p>ASISH PUBLIC SCHOOL is an ICSE based institution dedicated to providing quality education and nurturing young minds in a safe and inspiring learning environment.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">About the School</a>
+          <a class="button button-secondary" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">About</div>
+          <h2>Quality education rooted in care, discipline, and growth.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>ASISH PUBLIC SCHOOL, G. Udayagiri, Kandhamal, Odisha, is an ICSE-curriculum school established in 1993. The school is committed to building a strong academic foundation while encouraging curiosity, confidence, values, and personal responsibility.</p>
+            <p>Our learning environment is designed to be safe, supportive, and inspiring. Students are guided to think clearly, communicate well, respect others, and develop the habits needed for lifelong learning.</p>
+            <p>With a focus on meaningful classroom learning and overall development, ASISH PUBLIC SCHOOL works with families to help every child grow with discipline, kindness, and purpose.</p>
+          </div>
+
+          <aside class="info-card" aria-label="School highlights">
+            <div class="stat">
+              <span class="stat-number">30+</span>
+              <span class="stat-label">Years of Excellence</span>
+            </div>
+            <ul class="detail-list">
+              <li><strong>School Name</strong>ASISH PUBLIC SCHOOL</li>
+              <li><strong>Affiliation</strong>ICSE CURRICULUM</li>
+              <li><strong>Established</strong>1993</li>
+              <li><strong>Location</strong>Bank Colony, G. Udayagiri, Kandhamal, Odisha</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Campus Life</p>
+        <h2 id="gallery-heading">School Gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img src="images/1html.png" alt="ASISH Public School campus" width="600" height="440" loading="lazy">
+        </div>
+        <div class="gallery-card">
+          <img src="images/2html.png" alt="ASISH Public School campus activity" width="600" height="440" loading="lazy">
+        </div>
+        <div class="gallery-card">
+          <img src="images/3html.png" alt="Students and staff at ASISH Public School" width="600" height="440" loading="lazy">
+        </div>
+        <div class="gallery-card">
+          <img src="images/4html.png" alt="Learning environment at ASISH Public School" width="600" height="440" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Contact</div>
+          <h2>Reach ASISH PUBLIC SCHOOL!!</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Address</h3>
+            <p>Bank Colony, G. Udayagiri,<br />Kandhamal, Odisha – 762100</p>
+          </div>
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <p><a href="tel:+918840191398">+91 8840191398</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> ASISH PUBLIC SCHOOL. All rights reserved.</p>
+      <p>ASISH PUBLIC SCHOOL, G. Udayagiri, Kandhamal, Odisha, ICSE School established in 1993.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
+
+  <script>
+    "use strict";
+
+    const year = document.getElementById("year");
+    const backToTop = document.querySelector(".back-to-top");
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (year) {
+      year.textContent = new Date().getFullYear();
+    }
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const targetId = link.getAttribute("href");
+        if (!targetId || targetId === "#") return;
+        const target = document.querySelector(targetId);
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({
+          behavior: prefersReducedMotion ? "auto" : "smooth",
+          block: "start"
+        });
+        target.setAttribute("tabindex", "-1");
+        target.focus({ preventScroll: true });
+      });
+    });
+
+    if (backToTop) {
+      window.addEventListener("scroll", () => {
+        backToTop.classList.toggle("is-visible", window.scrollY > 500);
+      }, { passive: true });
+
+      backToTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
+      });
+    }
+  </script>
+</body>
+</html>
